@@ -1,0 +1,106 @@
+ó
+    ÖEØg»  ã                   óD   • S SK r S SKrS SKJr  S SKrS SKr " S S5      rg)é    N)Údatetimec                   óL   • \ rS rSrSS jrS
+S jrS rS r S  rS r	S	 r
+S
+ r
+S
+rg)Ú
+SimpleSIEMé    c                  ó€   • / U l         / U l        Xl        SU l        S U l        SSSS.SS SS.S	S
+S
+S.SS
+SS.S.U l        g )NTzlogin failedé   é<   )Ú patternÚ	thresholdÚ
+time_windowz192\.168\.\d+\.\d+é   iX  z(viewed data|downloaded data)é
+   é,  zunauthorized attempté   i  )Úmultiple_failed_loginsÚ
+suspicious_ipÚ
+rapid_actionsÚunauthorized_access)ÚlogsÚalertsÚlog_fileÚ runningÚcurrent_userÚrules)Úselfr   s     ÚIc:\Personal Files\extra\SIEM Project\siem2\SIEM_Tool_Project\siem\core.pyÚ__init__ÚSimpleSIEM.__init__   s_   € ØˆŒ	ØˆŒ
+Ø Œ
+ØˆŒØ ˆÔð 3BÐPQÐbdÑ&eØ)>ÈQÐ_bÑcØ)IÐXZÐknÑoØ/FÐUVÐgkÑ#lñ	
+ˆ
+ó    Nc                 ó
+  • [         R                  " 5       R                  5       nUUU=(       d    U R                  =(       d    SSS.nU R                  R
+                  U5        U R
+                  U5        U R                  U5        g )NÚ unknownF)Ú	timestampÚ messageÚuserÚ	processed)r   ÚnowÚ	isoformatr   r   ÚappendÚappend_log_to_fileÚ
+analyze_log)r   Ú	log_entryr$   r"   Úlogs        r   Ú
+collect_logÚSimpleSIEM.collect_log   si   € Ü—L’L“N×,Ñ,Ó.ˆ	à"Ø Ø×:˜D×-Ñ-×:°Øñ	
+ˆð 	
+	‰	×Ñ˜ÔØ×Ñ Ô$Ø×Ñ˜Õr   c                 óÔ   • U R                   R                  5        HJ  u  p#[        R                  " US   US   [        R                  5      (       d  M8  U R
+                  X#U5        ML  
+   g )Nr
+   r#   )r   ÚitemsÚreÚsearchÚ
+IGNORECASEÚcheck_rule_violation)r   r,   Ú	rule_nameÚrules       r   r*   ÚSimpleSIEM.analyze_log"   sJ   € Ø#Ÿz™z×/Ñ/Ö1‰OˆIÜyŠy˜˜i™¨#¨i©.¼"¿-¹-×HÓHØ×)Ñ)¨)¸3Ö?ò  2r   c                 óÈ  • [         R                  " US   5      nUR                  5       US   -
+  nU R                   Vs/ s Hs  n[         R                  " US   5      R                  5       U:¼  d  M0  [        R
+                  " US   US   [        R                  5      (       d  Mc  US   US   :X  d  Mq  UPMu  
+   n n[        U 5      US   :¼  a  U R                  X5        g g s  snf ) Nr"   r   r
+   r#   r$   r
+   )	r   Ú
+fromisoformatr"   r   r1   r2   r3   ÚlenÚgenerate_alert)r   r5   r6   Ú
+current_logÚcurrent_timeÚtime_window_startr,   Ú matchess           r   r4   ÚSimpleSIEM.check_rule_violation'   sÛ   € Ü×-Ò-¨k¸+Ñ.FÓGˆØ(×2Ñ2Ó4°t¸MÑ7JÑJÐð  Ÿ9š9ó
+Ú$CÜ×&Ò& s¨;Ñ'7Ó8×BÑBÓDÐHYÑYó 
+ä—	’	˜$˜y™/¨3¨y©>¼2¿=¹=×Ió 
+ð F‘
+˜{¨6Ñ2Ñ2÷  
+™9ð 	ð 
+ô ˆw‹<˜4 
+Ñ,Ó
+,Ø×Ñ 	Õ3ð -ùò
+s   ¾/CÁ1/CÂ$
+CÂ2Cc           
+      óœ  ^^• [         R                  " 5       R                  5       T[         U5      U R                  T   S   S-  :”  a  SOSUS   S   [         U5      US S   Vs/ s H   o3S   PM	  
+   snS	.m[
+        UU4S
+ jU R                   5       5      (       d-  U R                  R                  T5        U R                  T5        g g s  snf )
+Nr
+   g      ø?ÚHIGHÚMEDIUMr   r$   éûÿÿÿr#   )r"   r6   Úseverityr$   ÚcountÚ detailsc              3   óÞ   >#   • U  Hb  nUS    T:H  =(       aN    US   TS   :H  =(       a<    [         R                  " 5       [         R                  " US   5      -
+  R                  S:  v •  Md  
+   g7f)r6   r$   r"   r   N)r   r&   r9   Ú seconds)Ú.0ÚaÚalertr5   s     €€r   Ú	<genexpr>Ú,SimpleSIEM.generate_alert.<locals>.<genexpr>?   sk   øé € ð (â&að V‘9 	Ñ)÷ Z¨a°©i¸5À¹=Ñ.H÷ ZÜ—<’<“>¤H×$:Ò$:¸1¸[¹>Ó$JÑJ×SÑSÐVYÑYôZâ&ùs   ƒA*A-)	r   r&   r'   r:   r   Úanyr   r(   Ú
+display_alert)r   r5   Úmatched_logsr,   rL   s    `  @r   r;   ÚSimpleSIEM.generate_alert5   sÃ   ù€ ä!Ÿš›×1Ñ1Ó3ØÜ"% lÓ"3°d·j±jÀÑ6KÈKÑ6XÐ[^Ñ6^Ó"^™ÐdlØ  ‘O FÑ+Ü˜Ó&Ø2>¸r¸sÑ2CÓDÒ2C¨3˜IœÑ2CÑDñ
+ 
+ˆô õ (àŸ;š;ó(÷ (ñ (ð 
+K‰K×Ñ˜uÔ%Ø×Ñ˜uÕ%ð	(ùò  Es   Á#C	c                 ó  • [        SUS    35        [        SUS    35        [        SUS    35        [        S US    35        [        S	US
+    35        [        S
+5        US    H  n[        S
+U 35        M  
+   [        S5        g )Nz$
+[!] SUSPICIOUS ACTIVITY DETECTED - r"   zUser: r$   zRule: r6   z
+Severity: rE   z
+Occurrences: rF   zRecent suspicious events:rG   z  - z2--------------------------------------------------)Úprint)r   rL   Údetails      r   rP   ÚSimpleSIEM.display_alertE   s”   € Ü
+Ð5°e¸KÑ6HÐ5IÐJÔKÜ
+u˜V‘}oÐ&Ô'Ü
+u˜V‘}oÐ&Ô'Ü
+
+˜5 Ñ,Ð-Ð.Ô/Ü
+
+˜e G™nÐ-Ð.Ô/Ü
+Ð)Ô*Ø˜IÔ&ˆFÜD˜˜/Ö"ñ 'ä
+ˆhr   c                 ó   •  [        U R                  S5       nUR                  [        R                  " U5      S-   5        S S S 5        g ! , (       d  f       g = f! [
+          a  n[
+        SU 35         S nAg S nAff = f)NrK   Ú
+zError writing log to file: ) Úopenr   ÚwriteÚjsonÚdumpsÚ	ExceptionrT   )r   r,   ÚfÚes       r   r)   ÚSimpleSIEM.append_log_to_fileP   s^   € ð	5Üd—m‘m SÔ)¨QØ— ‘ œŸ
+š
+ 3›¨$Ñ.Ô/÷ *×)Ö)ûäó 	5ÜÐ/°¨sÐ3×4Ñ4ûð	5ús4   ‚A ˜)A
+ÁA Á
+
+A ÁA ÁA Á
+A=Á%A8Á8A=c                 ó¸  • [         R                  R                  U R                  5      (       aq   [	        U R                  S5       nU Vs/ s H=  o"R
+                  5       (       d  M  [        R                  " UR
+                  5       5      PM?  
+   snU l        S S S 5        g g s  snf ! , (       d  f       g = f! [          a  n[        SU 35         S nAg S nAff = f)NÚrzError loading logs: )
+ÚosÚpathÚexistsr   rY   Ústripr[   Úloadsr   r]   rT   )r   r^   Úliner_   s       r   Ú	load_logsÚSimpleSIEM.load_logsW   sš   € Ü
+
+7‰7>‰>˜$Ÿ-™-×
+(Ñ
+(ð
+2Ü˜$Ÿ-™-¨Ô-°ÙFGÓ XÂa¸dÏ:É:Ï<Ó!9¤§¢¨D¯J©J«LÖ!9ÁaÑ XD”I÷ .Ð-ð )ùò !Y÷ .Õ-ûäó 
+2ÜÐ,¨Q¨CÐ0×1Ñ1ûð
+2úsM   °B7 ÁB&Á
+B!Á'(B!ÂB&ÂB7 Â!B&Â&
+B4 Â0B7 Â4B7 Â7
+CÃCÃC)r   r   r   r   r   r   )z
+siem_logs.txt)N)
+Ú__name__Ú
+__module__Ú__qualname__Ú__firstlineno__r   r-   r*   r4   r;   rP   r)   ri   Ú__static_attributes__© r   r   r   r       s+   † ô
+ô
+ò@ò
+4ò&ò 	ò5õ2r   r   )Útimer[   r   rc   r1   r   rp   r   r   Ú<module>rr      s    ðÛ 
+Û 
+Ý Û 	Û 	÷V2ò V2r   
